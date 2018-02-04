@@ -12,6 +12,7 @@ class Main
         (switch ( lang )
         {
             case Fr: Bundle.load(LangFr).then( function(_) new Main(new LangFr()) );
+            case De: Bundle.load(LangDe).then( function(_) new Main(new LangDe()) );
             default: Promise.resolve().then( function(_) new Main(new Lang()) );
         })
         .catchError( function(_) new Main(new Lang()) );
@@ -34,5 +35,6 @@ class Main
 @:enum abstract Language(String) from String
 {
     var En = "en";
+    var De = "de";
     var Fr = "fr";
 }
