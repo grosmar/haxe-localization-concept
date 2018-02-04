@@ -1,0 +1,4 @@
+# @install: lix --silent download "haxelib:modular#0.9.3" into modular/0.9.3/haxelib
+-D modular=0.9.3
+-cp ${HAXESHIM_LIBCACHE}/modular/0.9.3/haxelib/src
+--macro Split.modules()

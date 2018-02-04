@@ -1,0 +1,7 @@
+-lib modular
+-D modular_nomaps
+
+-cp src
+-dce full
+-main Main
+-js bin/index.js

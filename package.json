@@ -1,0 +1,22 @@
+{
+  "name": "localization-concept",
+  "version": "1.0.0",
+  "description": "Example project with localization setup",
+  "main": "index.js",
+  "scripts": {
+    "install": "haxelib install modular"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/grosmar/localization-concept.git"
+  },
+  "author": "grosmar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/grosmar/localization-concept/issues"
+  },
+  "homepage": "https://github.com/grosmar/localization-concept#readme",
+  "dependencies": {
+    "haxe-modular": "^0.9.3"
+  }
+}
